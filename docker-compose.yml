@@ -1,0 +1,25 @@
+services:
+  ucp-backend:
+    image: python:3.12-slim
+    container_name: ucp-backend
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: >
+      sh -c "pip install -q -r requirements.txt &&
+             uvicorn ucp_backend:app --host 0.0.0.0 --port 8100"
+    ports:
+      - "8100:8100"
+    environment:
+      - UCP_PAYMENT_SECRET=${UCP_PAYMENT_SECRET:-kitudigital-dev-secret-2026}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8100/.well-known/ucp')"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+networks:
+  default:
+    name: ucp-net
