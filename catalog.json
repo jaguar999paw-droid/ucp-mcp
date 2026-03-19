@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "kitu-001",
+      "name": "Kenya Developer Starter Pack",
+      "description": "Curated set of cheatsheets, templates and scripts for full-stack developers. Includes Linux, Docker, FastAPI, React and Git workflows.",
+      "price": 4.99,
+      "currency": "USD",
+      "category": "developer-tools",
+      "tags": ["linux", "docker", "fastapi", "react", "git"],
+      "download_url": "/downloads/kitu-001.zip",
+      "license": "single-user",
+      "in_stock": true
+    },
+    {
+      "id": "kitu-002",
+      "name": "University Exam Study Pack — CS",
+      "description": "Comprehensive notes and past papers for computer science units. Covers Data Structures, Algorithms, OS, Networks, and Databases.",
+      "price": 3.49,
+      "currency": "USD",
+      "category": "study-guides",
+      "tags": ["university", "cs", "exam-prep", "algorithms", "os"],
+      "download_url": "/downloads/kitu-002.zip",
+      "license": "single-user",
+      "in_stock": true
+    },
+    {
+      "id": "kitu-003",
+      "name": "CTF Quickstart Bundle",
+      "description": "Cheatsheets and tool guides for web, pwn, forensics and crypto CTF categories. OWASP Top 10 mapped, with Kali Linux tooling reference.",
+      "price": 5.99,
+      "currency": "USD",
+      "category": "cybersecurity",
+      "tags": ["ctf", "kali", "pwn", "web", "crypto", "forensics"],
+      "download_url": "/downloads/kitu-003.zip",
+      "license": "single-user",
+      "in_stock": true
+    },
+    {
+      "id": "kitu-004",
+      "name": "Self-Hosted Infrastructure Playbook",
+      "description": "Step-by-step playbooks for Headscale/Tailscale VPN, Caddy reverse proxy, Docker Compose stacks, and DuckDNS TLS. Battle-tested on Ubuntu 24.04.",
+      "price": 7.99,
+      "currency": "USD",
+      "category": "developer-tools",
+      "tags": ["headscale", "tailscale", "caddy", "docker", "ubuntu", "self-hosted"],
+      "download_url": "/downloads/kitu-004.zip",
+      "license": "single-user",
+      "in_stock": true
+    },
+    {
+      "id": "kitu-005",
+      "name": "UI Design Starter Kit — Figma & SVG",
+      "description": "50 ready-to-use SVG components and a Figma community file for dashboards, landing pages and mobile apps. Includes dark mode variants.",
+      "price": 6.49,
+      "currency": "USD",
+      "category": "design-assets",
+      "tags": ["figma", "svg", "ui", "dashboard", "dark-mode"],
+      "download_url": "/downloads/kitu-005.zip",
+      "license": "single-user",
+      "in_stock": true
+    },
+    {
+      "id": "kitu-006",
+      "name": "MCP Server Development Guide",
+      "description": "Practical guide to building Model Context Protocol servers in Python (FastMCP) and TypeScript. Covers tools, resources, OAuth, and deployment on Docker.",
+      "price": 9.99,
+      "currency": "USD",
+      "category": "developer-tools",
+      "tags": ["mcp", "fastmcp", "python", "typescript", "claude", "ai"],
+      "download_url": "/downloads/kitu-006.zip",
+      "license": "single-user",
+      "in_stock": true
+    }
+  ]
+}
