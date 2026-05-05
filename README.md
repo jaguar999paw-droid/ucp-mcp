@@ -32,7 +32,7 @@ A Kenya-based digital goods marketplace. Zero inventory, instant downloads, agen
 
 ```bash
 # 1 — clone and bootstrap
-git clone https://github.com/jaguar999paw-droid/ucp-mcp ~/MCP/ucp-mcp
+git clone https://github.com/karanjaofficial25flow-hue/ucp-mcp.git
 cd ~/MCP/ucp-mcp
 chmod +x setup.sh && ./setup.sh
 
@@ -82,7 +82,7 @@ Already written to `~/.config/claude/claude_desktop_config.json` and
 ```json
 "ucp-mcp": {
   "command": "/home/kamau/MCP/ucp-mcp/venv/bin/python",
-  "args": ["/home/kamau/MCP/ucp-mcp/server.py"],
+  "args": ["/path/to/MCP/ucp-mcp/server.py"],
   "env": {
     "UCP_BASE_URL": "http://localhost:8100",
     "UCP_PAYMENT_SECRET": "kitudigital-dev-secret-2026"
